@@ -3,10 +3,10 @@
 .qr-container {
     text-align: center;
     padding: 50px;
-    background: linear-gradient(135deg, #4a6fa5, #6c8b99);
     color: #fff;
     height: 100vh;
     align-content: center;
+    background-color:#2B2B2B ;
     
   
     }
