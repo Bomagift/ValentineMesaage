@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
     height: 100vh;
     text-align: center;
     background: linear-gradient(135deg, #4a6fa5, #6c8b99);
