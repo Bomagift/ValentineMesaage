@@ -6,6 +6,8 @@ import Image4 from "../assets/Images/IMG_0865.jpeg"
 import Image5 from "../assets/Images/IMG_0867.jpeg"
 import Image6 from "../assets/Images/IMG_0868.jpeg"
 import Image7 from "../assets/Images/IMG_0869.jpeg"
+import MyVideo from "../assets/Videos/IMG_8183.mp4"
+
 
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion"; // Import Framer Motion
@@ -106,7 +108,7 @@ const QRPage = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           whileHover={{ scale: 1.05 }}
         >
-          <source src="src/assets/Videos/IMG_8183.mp4" type="video/mp4" />
+          <source src={MyVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </motion.video>
 
