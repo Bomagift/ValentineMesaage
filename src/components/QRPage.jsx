@@ -10,7 +10,7 @@ import MyVideo from "../assets/Videos/IMG_8183.mp4"
 
 
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion"; // Import Framer Motion
+import { motion } from "framer-motion";
 import "./QRPage.css";
 
 const QRPage = () => {
@@ -24,7 +24,7 @@ const QRPage = () => {
         Click below to reveal your surprise! 💌
       </motion.h2>
 
-      
+
       <div className="image-gallery">
         <motion.img
           src={Image1}
@@ -36,7 +36,7 @@ const QRPage = () => {
           whileHover={{ scale: 1.1 }}
         />
         <motion.img
-            src={Image2}
+          src={Image2}
           alt="Another Moment"
           className="qr-image"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -45,8 +45,8 @@ const QRPage = () => {
           whileHover={{ scale: 1.1 }}
         />
 
-<motion.img
-            src={Image3}
+        <motion.img
+          src={Image3}
           alt="Another Moment"
           className="qr-image"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -57,8 +57,8 @@ const QRPage = () => {
 
 
 
-<motion.img
-            src={Image4}
+        <motion.img
+          src={Image4}
           alt="Another Moment"
           className="qr-image"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -67,7 +67,7 @@ const QRPage = () => {
           whileHover={{ scale: 1.1 }}
         />
 
-<motion.img
+        <motion.img
           src={Image5}
           alt="Another Moment"
           className="qr-image"
@@ -77,8 +77,8 @@ const QRPage = () => {
           whileHover={{ scale: 1.1 }}
         />
 
-<motion.img
-            src={Image6}
+        <motion.img
+          src={Image6}
           alt="Another Moment"
           className="qr-image"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -87,8 +87,8 @@ const QRPage = () => {
           whileHover={{ scale: 1.1 }}
         />
 
-<motion.img
-            src={Image6}
+        <motion.img
+          src={Image6}
           alt="Another Moment"
           className="qr-image"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -98,7 +98,7 @@ const QRPage = () => {
         />
       </div>
 
-      
+
       <div className="video-gallery">
         <motion.video
           className="qr-video"
@@ -112,10 +112,10 @@ const QRPage = () => {
           Your browser does not support the video tag.
         </motion.video>
 
-      
+
       </div>
 
-      
+
       <motion.div
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}

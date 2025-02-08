@@ -11,7 +11,7 @@ const RiddlePage = () => {
 
   const checkAnswer = () => {
     if (correctAnswers.includes(answer.trim().toLowerCase())) {
-      navigate("/qr"); // Moves to the QR code page if correct
+      navigate("/qr");
     } else {
       setError("Oops! Try again, love. 💖");
     }

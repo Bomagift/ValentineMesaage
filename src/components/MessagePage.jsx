@@ -3,7 +3,7 @@ import "./MessagePage.css";
 
 const MessagePage = () => {
   const [text, setText] = useState("");
-  const [index, setIndex] = useState(0); // Track character index
+  const [index, setIndex] = useState(0);
 
   const message = `My Love ❤️,
 
@@ -36,16 +36,16 @@ Forever yours,
       const interval = setTimeout(() => {
         setText((prev) => prev + message[index]);
         setIndex(index + 1);
-      }, 50); // Adjust speed here
+      }, 50);
 
-      return () => clearTimeout(interval); // Cleanup timeout
+      return () => clearTimeout(interval);
     }
   }, [index, message]);
 
-  // Function to reset the message typing effect
+
   const replayMessage = () => {
-    setText(""); // Clear the current message
-    setIndex(0); // Reset the index to start from the beginning
+    setText("");
+    setIndex(0);
   };
 
   return (
