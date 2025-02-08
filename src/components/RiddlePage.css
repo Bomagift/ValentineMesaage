@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: gold;
+    color:rgb(89, 78, 15);
     height: 100vh;
     text-align: center;
     background-color:#2B2B2B ;
@@ -17,7 +17,7 @@
     border: 2px solid #4a6fa5;
     border-radius: 5px;
     margin-top: 10px;
-    color:rgb(66, 60, 25);
+    color:rgb(89, 78, 15);
   }
   button {
     background: #bfa14f;
