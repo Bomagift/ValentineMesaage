@@ -130,3 +130,4 @@ const QRPage = () => {
 };
 
 export default QRPage;
+
